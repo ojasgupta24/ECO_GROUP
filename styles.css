@@ -1,0 +1,182 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  color:#393E46
+}
+
+/* Multiple selectors example shown below*/
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'montserrat';
+  font-weight: bold;
+  color: #393E46
+}
+
+p {
+  color: #393E46;
+}
+
+/* Headings */
+.big-heading {
+  font-family: 'Montserrat', sans-serif;
+  /*I have used montserrat black by specifiying in the google fonts*/
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+#smallest-text{
+  font-size: 0.5rem
+}
+#navbar-brand-color{
+  color: #393E46
+}
+/* Containers */
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* Sections */
+.coloured-section {
+  background-color: #C4FB6D;
+  color: #393E46;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+/* Navigation Bar */
+#item-color{
+  color:black
+}
+.navbar {
+  padding: 0 0 4.5rem;
+  color: #393E46
+}
+
+.navbar-brand {
+  font-family: ubuntu;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #393E46
+}
+
+.nav-item {
+  padding: 0px 18px;
+  color: #393E46
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'Montserrat';
+  font-weight: 300;
+  color: #393E46
+}
+
+/* download buttons */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Section */
+/* This is a more specefic target it says container-fluid in the title section */
+/* if we give space bw them then parent element is the right one and left one is the child */
+#title .container-fluid {
+  padding: 3% 15%;
+  text-align: left;
+}
+
+/* Title Image */
+.title-image {
+  width: 50%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+/* Features section */
+#features {
+  z-index: 1;
+  position: relative;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+.feature-box {
+  padding-left: 5%;
+}
+
+.icon {
+  color: #C4FB6D;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #3CA59D;
+}
+
+/* Testimonail section */
+#testimonials {
+  background-color: #C4FB6D;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  width: 30%;
+  border-radius: 300%;
+  margin: 20px;
+}
+
+#press {
+  background-color: #C4FB6D;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* pricing section */
+#pricing {
+  padding: 100PX;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.card-heading {
+  font-size: 1.5rem;
+}
+
+#pricing-coloumn {
+  padding: 3% 2%;
+}
+
+/* CTA Section */
+.social-icon {
+  margin: 20px 10px;
+}
+
+@media (max-width:1028px) {
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+
+  #title {
+    text-align: center;
+  }
+}
